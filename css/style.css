@@ -20,6 +20,7 @@ text-transform: uppercase;
 .navbar-default .navbar-nav>li>a:hover{
 	color: #f74d65;
 }
+
 header{
 	background: url(../images/header_bg.jpg);
 	background-size: cover;
@@ -68,7 +69,7 @@ header{
 }
 .single_service i{
 	font-size: 25px;
-	color: #f73b56;
+	color: #ba9a9a;
 }
 .single_service h2{
 	color: #000000;
@@ -127,7 +128,7 @@ background-color: #2d3334;
 	position: absolute;
 	width: 80px;
 	height: 80px;
-	background-color: #f73b56;
+	background-color: #ba9a9a;
 	/*top: 110px;*/
 	left: 50%;
 	-moz-transform: rotate(45deg);
@@ -180,7 +181,7 @@ padding-bottom: 30px;
 padding-top: 120px;
 }
 .single_count i{
-	color: #f73b56;
+	color: #ba9a9a;
 	font-size: 24px;
 }
 .single_count h3{
@@ -366,7 +367,7 @@ border: 0px solid #fff;
 }
 .form_submit{
 width: 100%;
-background: #f73b56;
+background: #ba9a9a;
 border-radius: 0px;
 color: #fff;
 padding-top: 13px;
@@ -427,8 +428,8 @@ line-height: 28px;
 transition: all 1s;
 }
 ul.icon_list li a:hover{
-	color: #f73b56;
-	border-color:#f73b56;
+	color: #ba9a9a;
+	border-color:#ba9a9a;
 }
 .copyright_text{
 padding-top: 80px;
@@ -441,7 +442,7 @@ margin-bottom: 0px;
 letter-spacing: 0px;
 }
 .copyright_text a{
-	color:#f73b56;
+	color:#ba9a9a;
 	text-transform:uppercase;
 	font-weight:700;
 	text-decoration:none;
