@@ -1,175 +1,487 @@
 <!DOCTYPE html>
-<html lang="fr">
-  	<head>
-		<meta charset="utf-8">
-		
-		<title>Sucro Web Development</title>
-		
-		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<meta name="description" content="My web development portfolio">
-		<meta name="author" content="Suzan Sucro">
+<html lang="en">
 
-		<!-- OG, fav and touch icons -->
-        <meta property="og:title" content="Sucro Web Development"/>
-        <meta property="og:url" content="http://suzmas.com"/>
-        <meta property="og:site_name" content="Sucro Web Development"/>
-        <meta property="og:description" content="My web development portfolio"/>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>BRANDY</title>
+    <!-- Google Font -->
+    <link href='http://fonts.googleapis.com/css?family=Dosis:300,400,500,600,700,800' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
 
-          <link rel="apple-touch-icon" sizes="180x180" href="/images/favicons/apple-touch-icon.png">
-          <link rel="icon" type="image/png" href="/images/favicons/favicon-32x32.png" sizes="32x32">
-          <link rel="icon" type="image/png" href="/images/favicons/favicon-16x16.png" sizes="16x16">
-          <link rel="manifest" href="/images/favicons/manifest.json">
-          <link rel="mask-icon" href="/images/favicons/safari-pinned-tab.svg" color="#5bbad5">
-
-	<!-- Latest compiled and minified CSS -->
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-
-    <!-- Optional theme -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
-    <!-- JQuery -->
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-
-    <!-- Latest compiled and minified JavaScript -->
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
     <!-- Font Awesome -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-    <!-- CSS -->
-	<link rel="stylesheet" href="/CSS/bootstrap.css">
 
-		<!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
-		<!--[if lt IE 9]>
-		  <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
-		  <script src="/js/jquery-ie.js"></script>
-		  <script src="/js/fix-ie.js"></script>
-		  <script src="/js/placeholder-min.js"></script>
-		<![endif]-->
 
-		<!--[if lt IE 10]>
-		  <script src="/js/placeholder-min.js"></script>
-		<![endif]-->
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
 
-	</head>
+     <!-- Preloader -->
+    <link rel="stylesheet" href="css/preloader.css" type="text/css" media="screen, print"/>
 
-	<body class="about">
-		<iframe name="preload" style="position: absolute; width: 0px; height: 0px"></iframe>
-		<div id="wrap-animation">
-			<div class="show">
-				<div class="sk-spinner sk-spinner-three-bounce">
-					<div class="sk-bounce1"></div>
-					<div class="sk-bounce2"></div>
-					<div class="sk-bounce3"></div>
-				</div>
-			</div>
-			<div id="wrap">
+    <!-- Icon Font-->
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/owl.carousel.css">
+    <link rel="stylesheet" href="css/owl.theme.default.css">
+    <!-- Animate CSS-->
+    <link rel="stylesheet" href="css/animate.css">
 
-        <header class="fullscreen">
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
 
-        <div class="bg-about"><h1>Suzan<p class="last">Sucro</p></h1></div>
-        <h2 class="titleMobile hidden-lg hidden-md">Suzan<p class="last"> Sucro</p></h2>
-        <p class="title-pierro"></p>
-        <p class="title-artisan">Web Developer</p>
-        </header>
 
-<div class="border-top"></div>
-<div class="border-bottom"></div>
-<div class="border-left"></div>
-<div class="border-right"></div>
-<div class="overlay overlay-menu">
-    <nav>
-        <ul>
-            <li><a href="/" class="bg-blue">Stuff</a></li>
-            <li><a href="/mon-histoire" class="bg-blue"><span>mon</span>Home</a></li>
-            <li><a href="/mon-travail" class="bg-orange"><span>mon</span>About</a></li>
-            <li><a href="/me-contacter" class="bg-green"><span>me</span>Projects</a></li>
-        </ul>
-    </nav>
-</div>
-<div id="btn-menu">
-    <span class="top"></span>
-    <span class="middle"></span>
-    <span class="bottom"></span>
-</div>
-    <div class="space-footer">
-        <section class="white">
-            <div class="container">
-                <article class="orange-box">
-                    <div class="row row2col">
-                        <div class="col-md-6 col-left">
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla eget enim tellus. Morbi in dui id sapien placerat congue sed at magna. Pellentesque eget turpis in nisi bibendum dignissim eget et nisl. Suspendisse potenti. Nam at leo luctus, commodo tellus non, mattis leo. Fusce rutrum elementum nibh in vulputate. Donec quis mauris id risus volutpat congue. Etiam sagittis bibendum massa id placerat. Aliquam vitae augue a nisl auctor sagittis. Maecenas finibus ipsum sed massa fermentum vestibulum. Proin nunc neque, imperdiet eget dapibus sed, malesuada id libero. Aliquam vel mi hendrerit, faucibus augue vitae, blandit est.
 
-                            In hac habitasse platea dictumst. Nam et tortor gravida, tempor lacus ut, commodo dolor. Ut vitae felis aliquet, egestas odio et, lacinia orci. Etiam euismod interdum ex, non volutpat dolor facilisis in. Pellentesque in fringilla magna. Fusce mollis varius tempor. Maecenas ut ante quis nisi consequat lacinia. Nulla facilisi. Donec faucibus ipsum viverra viverra accumsan. Cras mi elit, tincidunt ac rutrum ut, blandit dictum velit. Maecenas lobortis dignissim risus tincidunt pharetra.</p>
+    <!-- Style -->
+    <link href="css/style.css" rel="stylesheet">
+
+    <!-- Responsive CSS -->
+    <link href="css/responsive.css" rel="stylesheet">
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="js/lte-ie7.js"></script>
+	  <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+	  <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+	<![endif]-->
+</head>
+
+<body>
+                <!-- Preloader -->
+                <div id="preloader">
+                    <div id="status">&nbsp;</div>
+                </div>
+
+
+
+
+    <header id="HOME" style="background-position: 50% -125px;">
+	        <div class="section_overlay">
+	            <nav class="navbar navbar-default navbar-fixed-top">
+	              <div class="container">
+	                <!-- Brand and toggle get grouped for better mobile display -->
+	                <div class="navbar-header">
+	                  <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+	                    <span class="sr-only">Toggle navigation</span>
+	                    <span class="icon-bar"></span>
+	                    <span class="icon-bar"></span>
+	                    <span class="icon-bar"></span>
+	                  </button>
+	                  <a class="navbar-brand" href="#"><img src="images/logo.png" alt=""></a>
+	                </div>
+
+	                <!-- Collect the nav links, forms, and other content for toggling -->
+	                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+	                  <ul class="nav navbar-nav navbar-right">
+	                    <li><a href="#HOME">Home</a></li>
+	                    <li><a href="#SERVICE">Services</a></li>
+	                    <li><a href="#ABOUT">About</a></li>
+	                    <li><a href="#TESTIMONIAL">Testimonial</a></li>
+	                    <li><a href="#WORK">Work</a></li>
+	                    <li><a href="#CONTACT">Contact</a></li>
+	                  </ul>
+	                </div><!-- /.navbar-collapse -->
+	              </div><!-- /.container -->
+	            </nav>
+
+	            <div class="container">
+	                <div class="row">
+	                    <div class="col-md-12 text-center">
+	                        <div class="home_text wow fadeInUp animated">
+	                            <h2>suzan sucro</h2>
+	                            <p>web developer</p>
+	                            <img src="images/shape.png" alt="">
+	                        </div>
+	                    </div>
+	                </div>
+	            </div>
+
+	            <div class="container">
+	                <div class="row">
+	                    <div class="col-md-12 text-center">
+	                        <div class="scroll_down">
+                            <a href="#SERVICE"><img src="images/scroll.png" alt=""></a>
+	                            <h4>Scroll Down</h4>
+	                        </div>
+	                    </div>
+	                </div>
+	            </div>
+	        </div>
+	    </section>
+    </header>
+
+
+    <section class="services" id="SERVICE">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3 text-center">
+                    <div class="single_service wow fadeInUp" data-wow-delay="1s">
+                        <i class="icon-pencil"></i>
+                        <h2>Design</h2>
+                        <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa.</p>
+                    </div>
+                </div>
+                <div class="col-md-3 text-center">
+                    <div class="single_service wow fadeInUp" data-wow-delay="2s">
+                        <i class="icon-gears"></i>
+                        <h2>Development</h2>
+                        <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa.</p>
+                    </div>
+                </div>
+                <div class="col-md-3 text-center">
+                    <div class="single_service wow fadeInUp" data-wow-delay="3s">
+                        <i class="icon-camera"></i>
+                        <h2>Photography</h2>
+                        <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa.</p>
+                    </div>
+                </div>
+                <div class="col-md-3 text-center">
+                    <div class="single_service wow fadeInUp" data-wow-delay="4s">
+                        <i class="icon-magnifying-glass"></i>
+                        <h2>Seo</h2>
+                        <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="about_us_area" id="ABOUT">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 text-center">
+                    <div class="about_title">
+                        <h2>About Me</h2>
+                        <img src="images/shape.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4  wow fadeInLeft animated">
+                    <div class="single_progress_bar">
+                        <h2>DESIGN - 90%</h2>
+                        <div class="progress">
+                          <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 90%;">
+                            <span class="sr-only">60% Complete</span>
+                          </div>
                         </div>
-                        <div class="col-md-6 col-right">
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla eget enim tellus. Morbi in dui id sapien placerat congue sed at magna. Pellentesque eget turpis in nisi bibendum dignissim eget et nisl. Suspendisse potenti. Nam at leo luctus, commodo tellus non, mattis leo. Fusce rutrum elementum nibh in vulputate. Donec quis mauris id risus volutpat congue. Etiam sagittis bibendum massa id placerat. Aliquam vitae augue a nisl auctor sagittis. Maecenas finibus ipsum sed massa fermentum vestibulum. Proin nunc neque, imperdiet eget dapibus sed, malesuada id libero. Aliquam vel mi hendrerit, faucibus augue vitae, blandit est</p>
-                            <p><i>Bon voyage au pays de mes rêves éveillés!</i></p>
+                    </div>
+                    <div class="single_progress_bar">
+                        <h2>DEVELOPMENT - 60%</h2>
+                        <div class="progress">
+                          <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%;">
+                            <span class="sr-only">60% Complete</span>
+                          </div>
                         </div>
-                </article>
-                <div class="clearfix"></div>
-            </div>
-            <div class="block-quotes">
-                <div class="green-quotes">
-                    <div class="content-border top"></div>
-                    <div class="content-border bottom"></div>
-                    <div class="content-border left"></div>
-                    <div class="content-border right"></div>
-                    <h2 class="quote"><span>“</span>Some fun quote <br/>that I like <br/>bunches, bunches, and bunches, <br/>because quotes!<span>”</span></h2>
+                    </div>
+                    <div class="single_progress_bar">
+                        <h2>MARKETING - 75%</h2>
+                        <div class="progress">
+                          <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 75%;">
+                            <span class="sr-only">60% Complete</span>
+                          </div>
+                        </div>
+                    </div>
+                    <div class="single_progress_bar">
+                        <h2>SEO - 95%</h2>
+                        <div class="progress">
+                          <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 95%;">
+                            <span class="sr-only">60% Complete</span>
+                          </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4  wow fadeInRight animated">
+                    <p class="about_us_p">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Sed quia non numquam eius modi tempora.</p>
+                </div>
+                <div class="col-md-4  wow fadeInRight animated">
+                    <p class="about_us_p">Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.</p>
                 </div>
             </div>
+        </div>
+    </section>
 
-            <div class="block-img">
-                <div class="wrapper-img-left">
-                    <img src="/images/img-about-big.jpg" alt=""/>
-                    <div class="hover animate showDown" data-wow-duration="1" data-wow-delay="0.3s"></div>
-                </div>
-                <div class="block-40">
-                    <div class="wrapper-img-right">
-                        <img src="/images/img-about-small-2.jpg" alt=""/>
-                        <div class="hover animate showDown" data-wow-duration="1" data-wow-delay="0.3s"></div>
-                    </div>
-                    <div class="wrapper-img-right width-60">
-                        <img src="/images/img-about-small-3.jpg" alt=""/>
-                        <div class="hover animate showDown" data-wow-duration="1" data-wow-delay="0.3s"></div>
-                    </div>
-                </div>
-                <a href="/mon-travail" class="link-oeuvres">
-                    <div class="wrap-btn">
-                        <div class="btn"><div>View my Work</div></div>
-                    </div>
-                    <img src="/images/oeuvres.gif" alt=""/>
-                </a>
+
+    <section class="testimonial text-center wow fadeInUp animated" id="TESTIMONIAL">
+        <div class="container">
+            <div class="icon">
+                <i class="icon-quote"></i>
             </div>
-            <div class="clearfix"></div>
-        </section>
+            <div class="owl-carousel">
+                <div class="single_testimonial text-center wow fadeInUp animated">
+                    <p>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores<br/> eos qui ratione voluptatem sequi nesciunt.</p>
+                    <h4>-JOHN DOE</h4>
+                </div>
+                <div class="single_testimonial text-center">
+                    <p>Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius<br/> modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.</p>
+                    <h4>-JOHN SMITH</h4>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <div class="fun_facts">
+    	<section class="header parallax home-parallax page" id="fun_facts" style="background-position: 50% -150px;">
+	        <div class="section_overlay">
+	            <div class="container">
+	                <div class="row">
+	                    <div class="col-md-6 wow fadeInLeft animated">
+	                        <div class="row">
+	                            <div class="col-md-4">
+	                                <div class="single_count">
+	                                    <i class="icon-toolbox"></i>
+	                                    <h3>300</h3>
+	                                    <p>Project Done</p>
+	                                </div>
+	                            </div>
+	                            <div class="col-md-4">
+	                                <div class="single_count">
+	                                    <i class="icon-clock"></i>
+	                                    <h3>1700+</h3>
+	                                    <p>Hours Worked</p>
+	                                </div>
+	                            </div>
+	                            <div class="col-md-4">
+	                                <div class="single_count">
+	                                    <i class="icon-trophy"></i>
+	                                    <h3>37</h3>
+	                                    <p>Awards Won</p>
+	                                </div>
+	                            </div>
+	                        </div>
+	                    </div>
+	                    <div class="col-md-5 col-md-offset-1 wow fadeInRight animated">
+	                        <div class="imac">
+	                            <img src="images/imac.png" alt="">
+	                        </div>
+	                    </div>
+	                </div>
+	            </div>
+	        </div>
+	    </section>
     </div>
-				<footer>
-					<div class="wrap-footer">
-						<a href="/"><img src="/images/cityscape.svg" class="logoFooter" alt="POC"/></a>
-							<ul class="list-unstyled info-contact">
-							<li><a href="mailto:info@poc-sculpture.com">suzanmsucro@gmail.com</a></li>
-              <a class="social-btn" href="https://github.com/suzmas" target="_blank" rel="noopener noreferrer">
-                <i class="fa fa-fw fa-github fa-lg"></i>
-              </a>
-              <a class="social-btn" href="https://twitter.com/suzanmsu" target="_blank" rel="noopener noreferrer">
-                <i class="fa fa-fw fa-twitter-square fa-lg"></i>
-              </a>
-              <a class="social-btn" href="https://www.linkedin.com/in/suzan-sucro-55451a48?trk=nav_responsive_tab_profile" target="_blank" rel="noopener noreferrer">
-                <i class="fa fa-fw fa-linkedin-square fa-lg"></i>
-              </a>
-              <a class="social-btn" href="http://twitter.com/suzmas" target="_blank" rel="noopener noreferrer">
-                <i class="fa fa-fw fa-facebook-square fa-lg"></i>
-              </a>
-						</ul>
-						<div class="scrollTop" onclick="$('html, body').animate({ scrollTop: $('header').offset().top }, 800); return false;">To the Top</div>
-					</div>
-					<div id="copy">
-						<p class="copy">© Suzan Sucro, 2016</p>
-					</div>
-				</footer>
-			</div>
-		</div>
+    <section class="work_area" id="WORK">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 text-center">
+                    <div class="work_title  wow fadeInUp animated">
+                        <h1>Latest Works</h1>
+                        <img src="images/shape.png" alt="">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna <br> aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-4 no_padding">
+                    <div class="single_image">
+                        <img src="images/w1.jpg" alt="">
+                        <div class="image_overlay">
+                            <a href="">View Full Project</a>
+                            <h2>drawing</h2>
+                            <h4>with pencil colors</h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 no_padding">
+                    <div class="single_image">
+                        <img src="images/w2.jpg" alt="">
+                        <div class="image_overlay">
+                            <a href="">View Full Project</a>
+                            <h2>drawing</h2>
+                            <h4>with pencil colors</h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 no_padding">
+                    <div class="single_image">
+                        <img src="images/w3.jpg" alt="">
+                        <div class="image_overlay">
+                            <a href="">View Full Project</a>
+                            <h2>drawing</h2>
+                            <h4>with pencil colors</h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row pad_top">
+                <div class="col-md-4 no_padding">
+                    <div class="single_image">
+                        <img src="images/w4.jpg" alt="">
+                        <div class="image_overlay">
+                            <a href="">View Full Project</a>
+                            <h2>drawing</h2>
+                            <h4>with pencil colors</h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 no_padding">
+                    <div class="single_image">
+                        <img src="images/w5.jpg" alt="">
+                        <div class="image_overlay">
+                            <a href="">View Full Project</a>
+                            <h2>drawing</h2>
+                            <h4>with pencil colors</h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 no_padding">
+                    <div class="single_image last_padding">
+                        <img src="images/w6.jpg" alt="">
+                        <div class="image_overlay">
+                            <a href="">View Full Project</a>
+                            <h2>drawing</h2>
+                            <h4>with pencil colors</h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="call_to_action">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8 wow fadeInLeft animated">
+                    <div class="left">
+                        <h2>LOOKING FOR EXCLUSIVE DIGITAL SERVICES?</h2>
+                        <p>Proin fringilla augue at maximus vestibulum. Nam pulvinar vitae neque et porttitor.
+                        Integer non dapibus diam, ac eleifend lectus.</p>
+                    </div>
+                </div>
+                <div class="col-md-3 col-md-offset-1 wow fadeInRight animated">
+                    <div class="baton">
+	                    <a href="#CONTACT">
+	                        <button type="button" class="btn btn-primary cs-btn">Let's Talk</button>
+	                    </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="contact" id="CONTACT">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 text-center">
+                    <div class="contact_title  wow fadeInUp animated">
+                        <h1>get in touch</h1>
+                        <img src="images/shape.png" alt="">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna<br/> aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3  wow fadeInLeft animated">
+                    <div class="single_contact_info">
+                        <h2>Call Me</h2>
+                        <p>+88 00 123 456 01</p>
+                    </div>
+                    <div class="single_contact_info">
+                        <h2>Email Me</h2>
+                        <p>Hello@example.com</p>
+                    </div>
+                    <div class="single_contact_info">
+                        <h2>Address</h2>
+                        <p>216 Street Address, Barisal, BD</p>
+                    </div>
+                </div>
+                <div class="col-md-9  wow fadeInRight animated">
+                    <form class="contact-form" action="">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <input type="text" class="form-control" id="name" placeholder="Name">
+                                <input type="email" class="form-control" id="email" placeholder="Email">
+                                <input type="text" class="form-control" id="subject" placeholder="Subject">
+                            </div>
+                            <div class="col-md-6">
+                                <textarea class="form-control" id="message" rows="25" cols="10" placeholder="  Message Texts..."></textarea>
+                                <button type="button" class="btn btn-default submit-btn form_submit">SEND MESSAGE</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 text-center">
+                    <div class="work-with   wow fadeInUp animated">
+                        <h3>looking forward to hearing from you!</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
-		<script src="/js/min/transition-min.js"></script>
-		<script src="/js/min/combined-min.js"></script>
-		<script src="/js/script.js"></script>
-	</body>
+
+
+<footer>
+    <div class="container">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 text-center">
+                    <div class="footer_logo   wow fadeInUp animated">
+                        <img src="images/logo.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 text-center   wow fadeInUp animated">
+                    <div class="social">
+                        <h2>Follow Me on Here</h2>
+                        <ul class="icon_list">
+                            <li><a href=""><i class="fa fa-facebook"></i></a></li>
+                            <li><a href=""><i class="fa fa-twitter"></i></a></li>
+                            <li><a href=""><i class="fa fa-google-plus"></i></a></li>
+                            <li><a href=""><i class="fa fa-linkedin"></i></a></li>
+                            <li><a href=""><i class="fa fa-dribbble"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 text-center">
+                    <div class="copyright_text   wow fadeInUp animated">
+                        <p>&copy; brandy 2015.All Right Reserved By <a href="http://www.themeforest.net/user/thecodecafe"target="_blank">Code Cafe Team</a></p>
+                        <p>Made with love for creative people.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+
+
+
+
+
+
+
+
+
+
+
+<!-- =========================
+     SCRIPTS
+============================== -->
+
+
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.nicescroll.js"></script>
+    <script src="js/owl.carousel.js"></script>
+    <script src="js/wow.js"></script>
+    <script src="js/script.js"></script>
+
+
+
+
+</body>
+
 </html>
