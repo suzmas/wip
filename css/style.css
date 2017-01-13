@@ -20,7 +20,12 @@ text-transform: uppercase;
 .navbar-default .navbar-nav>li>a:hover{
 	color: #f74d65;
 }
-
+.navbar .container {
+	width: 95%;
+}
+.navbar-brand {
+	padding-top: 20%;
+}
 header{
 	background: url(../images/header_bg.jpg);
 	background-size: cover;
