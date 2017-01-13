@@ -26,6 +26,13 @@ header{
 	background-size: cover;
 	background-repeat: no-repeat;
 }
+header .fa-github, .fa-linkedin, .fa-twitter {
+	color: #e9e9e9;
+
+}
+.fa-arrow-circle-o-down {
+	color: #ba9a9a;
+}
 .section_overlay{
 	background: rgba(250,250,250, .5);
 }
@@ -48,6 +55,7 @@ header{
 .scroll_down{
 	padding-bottom: 50px;
 }
+
 .scroll_down h4{
 	font-size: 12px;
 	color: #000;
