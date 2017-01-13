@@ -55,6 +55,10 @@ header{
 	text-transform: uppercase;
 }
 
+/* About */
+.devicon {
+	max-width: 8em;
+}
 
 /*Services*/
 .services{
@@ -79,6 +83,9 @@ header{
 .single_service p{
 	color: #404040;
 	font-size: 14px;
+}
+i {
+	font-size: 50px;
 }
 .single_progress_bar .progress {
 height: 1px;
