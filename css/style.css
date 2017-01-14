@@ -11,6 +11,9 @@ a{
 h1, h2, h3, h4, h5, h6{
 	font-family: 'Dosis', sans-serif;
 }
+.fa-lg {
+	font-size: 1.6em !important;
+}
 
 /*Header*/
 .navbar-default .navbar-nav>li>a {
@@ -31,8 +34,8 @@ header{
 	background-size: cover;
 	background-repeat: no-repeat;
 }
-header .fa-github, .fa-linkedin, .fa-twitter {
-	color: #e9e9e9;
+.home_text .fa-github, .fa-linkedin, .fa-twitter {
+	color: #e9e9e9 !important;
 }
 .icon_list li a .fa-github, .fa-linkedin, .fa-twitter {
 	color: grey;
@@ -60,6 +63,7 @@ header .fa-github, .fa-linkedin, .fa-twitter {
 	color: #404040;
 	font-size: 14px;
 	text-transform: uppercase;
+	letter-spacing: 2px;
 }
 .home_text img{}
 .scroll_down{
@@ -358,6 +362,7 @@ text-transform: uppercase;
 /*Contact*/
 
 .single_contact_info{
+text-align: center;
 padding-bottom: 21px;
 }
 .single_contact_info h2{
@@ -380,6 +385,7 @@ color: #3d3d3d;
 .contact-form{
 background-color: #f1f1f1;
 padding: 30px;
+border-radius: .4em;
 }
 .contact-form .form-control{
 height: 43px;
