@@ -33,7 +33,12 @@ header{
 }
 header .fa-github, .fa-linkedin, .fa-twitter {
 	color: #e9e9e9;
-
+}
+.icon_list li a .fa-github, .fa-linkedin, .fa-twitter {
+	color: grey;
+}
+.home_text p a i:hover {
+	color: #f74d65 !important;
 }
 .fa-arrow-circle-o-down {
 	color: #ba9a9a;
