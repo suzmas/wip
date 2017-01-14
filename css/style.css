@@ -319,6 +319,16 @@ text-transform: uppercase;
 	color: #000;
 	margin-bottom: 100px;
 }
+#project-fa {
+	margin-bottom: 30px !important;
+	font-size: 1.5em;
+}
+#project-fa > a i {
+	color: grey;
+}
+.fa:hover {
+	color: #f74d65 !important;
+}
 .last_padding {
 	padding-right: 0px;
 }
