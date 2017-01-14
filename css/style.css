@@ -27,7 +27,7 @@ text-transform: uppercase;
 	width: 95%;
 }
 .navbar-brand {
-	/*padding-top: 20%;*/
+	padding: 10px 15px !important;
 }
 header{
 	background: url(../images/header_bg.jpg);
