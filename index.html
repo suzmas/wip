@@ -88,7 +88,7 @@
 	                        <div class="home_text wow fadeInUp animated">
 	                            <h2>suzan sucro</h2>
 	                            <p>web developer</p>
-	                            <p><a href="https://twitter.com/suzanmsu"><i class="fa fa-twitter fa-lg"></i></a> |
+	                            <p class="home_fa"><a href="https://twitter.com/suzanmsu"><i class="fa fa-twitter fa-lg"></i></a> |
                               <a href="https://twitter.com/suzanmsu https://www.linkedin.com/in/suzan-sucro-55451a48"><i class="fa fa-linkedin fa-lg"></i></a> |
                               <a href="https://github.com/suzmas"><i class="fa fa-github fa-lg"></i></a>
 	                        </div>
@@ -121,49 +121,23 @@
                         <h2>About Me</h2>
                         <img src="images/shape.png" alt="">
                     </div>
+                    <p>yo</p>
                 </div>
             </div>
         </div>
         <div class="container">
             <div class="row">
-                <div class="col-md-4  wow fadeInLeft animated">
-                    <div class="single_progress_bar">
-                    </div>
-                    <div class="single_progress_bar">
-                      <!-- <i class="devicon-angularjs-plain"></i>
-                      <i class="devicon-django-plain"></i>
-                      <i class="devicon-javascript-plain"></i>
-                      <i class="devicon-jquery-plain-wordmark"></i>
-                      <i class="devicon-less-plain-wordmark"></i>
-                      <i class="devicon-mongodb-plain"></i>
-                      <i class="devicon-nodejs-plain"></i>
-                      <i class="devicon-postgresql-plain"></i>
-                      <i class="devicon-python-plain"></i>
-                      <i class="devicon-rails-plain"></i>
-                      <i class="devicon-sass-original"></i> -->
-
-                    </div>
-                    <div class="single_progress_bar">
-                      <p>
-                        I'm a junior full-stack web developer. I primarily work with Ruby on Rails using Jquery, Rspec, and Postgres. I've worked with (and adore) Python, and I have experience using Django. I'm in the process of learning the MEAN stack by building an app with a small team of friends who share my love of learning.
-                      </p>
-                        </div>
-                        <h4>INTERESTS</h4>
-                        <div class="single_progress_bar">
-                          <p>
-                          Knowing all the things! <br>
-                          No, to be serious, my stack of to-learns is very large, and always growing. Short-term I'd like to experiment more with the MEAN stack, learn more about responsive design, and master Rails. Long-term, I am hugely interested in Machine Learning & Natural Language Processing.
-                        </p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-2  wow fadeInRight animated">
-                </div>
-                <div class="col-md-8  wow fadeInRight animated">
-                    <p class="about_us_p">
-                </div>
-                <div class="col-md-2  wow fadeInRight animated">
-                </div>
+              <div class="col-md-2  wow fadeInRight animated">
+              </div>
+              <div class="col-md-8  text-center wow fadeInRight animated">
+                <p class="about_us_p center-block">
+                  I'm a junior full-stack web developer. I primarily work with Ruby on Rails using Jquery, Rspec, and Postgres. I've worked with (and adore) Python, and I have experience using Django. I'm in the process of learning the MEAN stack by building an app with a small team of friends who share my love of learning.
+                  Knowing all the things! <br>
+                  No, to be serious, my stack of to-learns is very large, and always growing. Short-term I'd like to experiment more with the MEAN stack, learn more about responsive design, and master Rails. Long-term, I am hugely interested in Machine Learning & Natural Language Processing.
+                </p>
+              </div>
+              <div class="col-md-2  wow fadeInRight animated">
+              </div>
             </div>
         </div>
     </section>
@@ -346,7 +320,7 @@
         </div>
         <div class="container">
             <div class="row">
-                <div class="col-md-3  wow fadeInLeft animated">
+                <div class="col-md-12 center-block  wow fadeInLeft animated">
                     <!-- <div class="single_contact_info">
                         <h2>Call Me</h2>
                         <p>619 310 </p>
@@ -354,23 +328,23 @@
                     <div class="single_contact_info">
                         <h2>Email</h2>
                         <p>suzanmsucro@gmail.com</p>
-                    </div>
-                    <div class="single_contact_info">
                         <h2>LOCATION</h2>
                         <p>San Diego, CA 92116</p>
                     </div>
                 </div>
-                <div class="col-md-9  wow fadeInRight animated">
-                    <form class="contact-form" action="">
+              </div>
+              <div class="row">
+                <div class="col-md-12 center-block wow fadeInRight animated">
+                    <form class="contact-form" action="https://formspree.io/suzansucro@gmail.com" method="POST">
                         <div class="row">
                             <div class="col-md-6">
-                                <input type="text" class="form-control" id="name" placeholder="Name">
-                                <input type="email" class="form-control" id="email" placeholder="Email">
+                                <input type="text" name="name" class="form-control" id="name" placeholder="Name">
+                                <input type="email" name="_replyto" class="form-control" id="email" placeholder="Email">
                                 <input type="text" class="form-control" id="subject" placeholder="Subject">
                             </div>
                             <div class="col-md-6">
-                                <textarea class="form-control" id="message" rows="25" cols="10" placeholder="  Message Texts..."></textarea>
-                                <button type="button" class="btn btn-default submit-btn form_submit">SEND MESSAGE</button>
+                                <textarea name="message" class="form-control" id="message" rows="25" cols="10" placeholder="  Message Texts..."></textarea>
+                                <input type="submit" value="Send" class="btn btn-default submit-btn form_submit"></input>
                             </div>
                         </div>
                     </form>
