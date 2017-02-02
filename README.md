@@ -1,3 +1,4 @@
 suzmas.github.io
 
-So tired.
+A static portfolio site made with html & javascript.
+FormSpree for contact capabilities.
