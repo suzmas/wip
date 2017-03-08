@@ -1,0 +1,28 @@
+title: Title of your page
+author: Your Name
+author_title: Your Professional Title
+email: your-email@domain.com
+description: > # this means to ignore newlines until "baseurl:"
+  Write an awesome description for your new site here. You can edit this
+  line in _config.yml. It will appear in your document head meta (for
+  Google search results) and in your feed.xml site description.
+baseurl: ""
+url: ""
+
+twitter_url: https://twitter.com/YOURTWITTERNAME
+linkedin_url: https://www.linkedin.com/in/YOURLINKEDINADDRESS
+github_url: https://github.com/YOURGITHUBNAME
+
+# Build settings
+markdown: kramdown
+markdown: kramdown
+gems:
+  - jekyll-feed
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+
+sass:
+  sass_dir: _sass
+  style: compressed

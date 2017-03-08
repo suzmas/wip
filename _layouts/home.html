@@ -1,0 +1,59 @@
+---
+layout: default
+---
+
+<div class="home section">
+
+  <h1 id="home">{{site.author}}</h1>
+  <h2>{{site.author_title}}</h2>
+  <p class="home_fa"><a href="{{site.twitter_url}}"><i class="fa fa-twitter fa-lg"></i></a> |
+  <a href="{{site.linkedin_url}}"><i class="fa fa-linkedin fa-lg"></i></a> |
+  <a href="{{site.github_url}}"><i class="fa fa-github fa-lg"></i></a>
+
+  <ul class="splash-links" id="menu">
+    {% for page in site.pages %}
+      {% if page.title %}
+        <li data-menuanchor="{{ page.page_str }}">
+          <h3>
+            <a class="splash-link" href="#{{ page.page_str }}">{{ page.title | escape }}</a>
+          </h3>
+        </li>
+      {% endif %}
+    {% endfor %}
+    <li data-menuanchor="lastPage">
+      <h3>
+        <a class="splash-link" href="#lastPage" id="posts">Writing</a>
+      </h3>
+    </li>
+  </ul>
+
+</div>
+
+{% for page in site.pages %}
+  {% if page.title %}
+
+    <div class="section">
+      <h1>{{page.title}}</h1>
+      {{page.content}}
+    </div>
+  {% endif %}
+{% endfor %}
+
+<div class="section">
+  <h1 class="page-heading">Posts</h1>
+
+  <ul class="post-list">
+    {% for post in site.posts %}
+      <li>
+        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+
+        <h2>
+          <a class="post-link" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
+        </h2>
+      </li>
+    {% endfor %}
+  </ul>
+
+  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | relative_url }}">via RSS</a></p>
+
+</div>
