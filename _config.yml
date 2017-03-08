@@ -15,7 +15,7 @@ github_url: https://github.com/YOURGITHUBNAME
 
 # Build settings
 markdown: kramdown
-markdown: kramdown
+theme: minima
 gems:
   - jekyll-feed
 exclude:
