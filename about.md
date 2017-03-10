@@ -7,6 +7,6 @@ page_str: secondPage
 
 Hi, my name is Suzan.
 
-I'm terrible at writing about myself, so I'm thinking this section over.
+I feel awkward writing about myself, and I'm reading a blog post about React right now so I'm kinda busy.
 
-Hopefully I will know more about myself later.
+Check back later.
